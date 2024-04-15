@@ -1,0 +1,52 @@
+*{
+    background-color: beige;
+}
+header h1{
+    background-color: deepskyblue;
+    text-align: center;
+    color: aliceblue;
+
+}
+div > ul{
+    list-style-type:none;
+}
+section h2{
+    font-size: 25px;
+    color:darkred;
+}
+div > p{
+    font-style: italic;
+    font-size: 20px;
+}
+footer p{
+    background-color:rgb(236, 127, 185);
+    text-align: center;
+    font-size: 25px;
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+ul>li{
+    color:darkmagenta;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+#main-section,h2{
+    color:crimson;
+    font-size: 25px;
+}
+section p{
+    color:darkorchid
+}
+#content,h3{
+    font-size: 23px;
+}
+/* Style the <header> element with a background color of your choice and center-align the text.
+Style the navigation links (<nav>) by removing the default list styling
+Style the <h2> element inside the <section> with a different font size and color.
+Style the <p> element inside the <section> with italic font style.
+Style the background color of the <footer> element to distinguish it from the rest of the page. */

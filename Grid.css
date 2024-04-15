@@ -1,0 +1,76 @@
+/* .container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:repeat(4,25%);
+    grid-template-areas: "head head head head" 
+    "aside main main main" 
+    "foot foot foot";
+}
+#head,#foot,#main,#aside{
+    background-color: aqua;
+    border:2px solid;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+#head{
+    grid-area: head;
+}
+#foot{
+    grid-area: foot;
+}
+#main{
+    grid-area: main;
+}
+#aside{
+    grid-area: aside;
+} */
+p{
+    border:5px solid green;
+}
+ @media screen and (min-width:576px){
+    p{
+        color:blue;
+        background-color: aquamarine;
+    }
+}
+@media screen and (min-width:577px) and (max-width:767px){
+    p{
+        background-color: antiquewhite;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+    p{
+        background-color:blueviolet;
+        color:white;
+    }
+}
+@media screen and (min-width:1201px){
+    p{
+        background-color:cadetblue;
+        color:white;
+    }
+}
+@media print {
+    h1{
+        color:green;
+    }
+}
+/* .parent{
+    display:grid;
+    width:700px;
+    height:100vh;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 1fr 2fr;
+    gap:20px;
+    justify-items: center;
+}
+.parent>div:nth-child(odd){
+    background-color: antiquewhite;
+}
+.parent>div:nth-child(even){
+    background-color:burlywood;
+} */
+/* .child1{
+    align-self: flex-start;
+} */

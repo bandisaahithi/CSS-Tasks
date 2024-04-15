@@ -1,0 +1,72 @@
+/* h1,p{
+    color:rebeccapurple;
+    font-size: xx-large;
+}
+p{
+    border:2px solid green
+} */
+
+/* div ~ p{
+    color:blue;
+    background-color: aquamarine;
+}
+a[href="https://www.google.com"]{
+    color:green;
+}
+a[href="https://www.instagram.com"]{
+    color:blue;
+}
+a{
+    text-decoration: none;
+    outline: 3px black;
+} */
+
+h1{
+    color:orchid;
+}
+h2{
+    color:rgb(0,255,255);
+}
+h3{
+    color:#4f6;
+}
+h4{
+    color:hsl(240, 100%, 50%)
+}
+/* hsl
+0-119 - red
+120-239 - green
+240-359 - blue */
+/* p{
+    color:rgba(255,0,0,1);
+    background-color: aquamarine;
+    opacity:70%;
+} */
+/* html{
+    height:100%
+} */
+/* body{
+    height: 100%;
+    background-color: antiquewhite;
+    background-image: url(../HTML/Assests/free-nature-images.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: contain;
+    border: 2px solid black; */
+    /* opacity: 40%; */
+}
+/* shorthand background:
+ h1{
+    height: 40%;
+    background-color: antiquewhite;
+    background-image: url(../HTML/Assests/free-nature-images.jpg);
+    background-repeat: no-repeat;
+     background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: transparent;
+    background-clip: text; */
+h1{
+    border: 2px solid black;
+}

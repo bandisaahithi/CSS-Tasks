@@ -1,0 +1,18 @@
+#about{
+    margin-top:200px;
+    border:2px solid black;
+    font-size: 25px;
+    height: auto;
+    width:700px;
+    padding:50px;
+    margin-left: 550px;
+    box-shadow: 5px 10px goldenrod;
+    text-align: justify;
+    background-color: aqua;
+}
+#about img{
+    border-radius: 50%;
+}
+#about td{
+    padding-left: 30px;
+}

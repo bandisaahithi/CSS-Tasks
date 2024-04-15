@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+/* text-align: left,right,center,justify */
+/* text-align-last:left,right,center,justify */
+
+h1{
+    color:crimson;
+    background-color: antiquewhite;
+    /* text-align:justify; */
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+}
+/* vertical-align:baseline(default),sub,super,text top,text bottom */
+/* img {
+    display: inline; 
+    vertical-align:super;
+} */
+
+
+/* text-decoration-line:underline,linethrough,overline 
+ text-decoration-line:wavy;*/
+/* text-transform: capitalize,upper,lower */
+
+div p{
+    margin: 10px;
+    /* text-decoration-line: overline line-through underline; */
+    /* text-decoration-color: red;
+    text-decoration-line:wavy;
+    text-decoration-thickness: 3px; */
+    /* text-decoration: red underline wavy 2px; */
+    text-transform: capitalize;
+    text-indent:20%;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    /* text-align: justify; */
+    line-height: 1.2;
+    white-space: wrap;
+    word-wrap: break-word;
+    /* width:300px;
+    border:2px solid; */
+    /* color:white; */
+    /* text-shadow: 2px 2px 4px rgb(0, 98, 128),2px 2px 4px yellow,2px 2px 4px green,0 0 20px darkblue,0 0 20px indigo; */
+    font-style: italic;
+    font-style: oblique;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-size: larger;
+    font-size: 4em;
+
+}
+div{
+    font-size: 20px;
+}
+a{
+    color:red;
+    text-decoration: none;
+}

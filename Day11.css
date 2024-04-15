@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.box{
+    margin-top: 100px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding:20px;
+    gap:10px;
+    height: 400px;
+    width:400px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+.grid-items{
+    border:1px solid;
+    text-align: center;
+    padding:10px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+    font-weight:bolder;
+    text-align: end;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid black;
+}
+.item2,.item3,.item4,.item5{
+    background-color: grey;
+    color: #fff;
+    font-size: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid grey;
+    
+}
+.item9{
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    text-align: center;
+    padding-top: 100px;
+    background-color: chartreuse;
+    color:white;
+    border: 2px solid chartreuse;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.item6,.item7,.item8,.item10,.item11,.item12,.item13,.item14,.item15,.item16,.item17{
+    background-color:#cdcdcd;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid #cdcdcd ;
+}
+.item18{
+    background-color:rgb(235, 99, 126);
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border:2px solid rgb(235, 99, 126);
+}

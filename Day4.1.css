@@ -1,0 +1,6 @@
+#border{
+    height: auto;
+    width:700px;
+    border:5px solid black;
+    margin: auto;
+}

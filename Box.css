@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+#first{
+    /* total width=width+left and right padding+border left and right */
+    margin:20px;
+    width:200px;
+    height:100px;
+    border:2px solid black;
+    outline: 20px solid brown;
+    padding: 30px;
+    margin:30px;
+}
+#second{
+    max-width: 200px;
+    min-width: 150px;
+    width:300px;
+    border:3px solid red;
+    margin:auto;
+    text-align: center;
+}
+span{
+    width:300px;
+    height: 300px;
+    border: 2px solid black;
+    color:red;
+    margin: 50px;
+    padding:30px;
+}
+div{
+    max-width: fit-content;
+    border:2px solid;
+    margin-left:200px;
+    padding-right:100px;
+    /* margin:20px */
+}
+#para{
+    margin-left:inherit;
+    padding-right:inherit;    
+}
+#ex{
+    border-radius:50px;
+}

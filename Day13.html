@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form using Psuedo classes</title>
+    <link rel="stylesheet" href="./Day13.css">
+</head>
+<body style="background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );">
+    <form>
+        <h1>SignUp</h1>
+        <input type="text" class="input1" placeholder="Username" style="height: 40px; width:200px;padding: 5px;margin-bottom: 15px;">
+
+        <!-- <input type="text" placeholder="Lastname" style="height: 40px; width:200px;padding: 5px;margin-bottom: 15px;">  -->
+
+        <input type="email" class="input2" placeholder="Email Address">
+        <input type="password" class="input3" placeholder="Password">
+        <input type="tel"  class="input4" min="1" max="12" placeholder="Mobile Number">
+
+        <div class="gender" class="gender">
+
+        <label for="">Gender&nbsp;:</label>
+        
+        <input type="radio" name="Male" id="gender1">
+        <label for="gender">Male</label>
+
+        <input type="radio" name="Female" id="gender2">
+        <label for="gender">Female</label>
+
+    </div>       
+        <div class="form">
+        <input type="checkbox" class="check">
+        <a href="#">Remember Me</a> &emsp;
+        <a href="#">Forgot Password</a>
+    </div>
+    <div class="login">
+        <button>Login</button>
+    </div>
+    <div class="register">
+        <a href="#">Don't have an account?</a>
+        <a href="#">Register</a>
+    </div>
+    </form>
+</body>
+</html>
